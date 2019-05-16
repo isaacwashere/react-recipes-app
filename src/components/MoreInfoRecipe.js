@@ -44,4 +44,3 @@ class MoreInfoRecipe extends React.Component {
 }
 
 export default MoreInfoRecipe;
-

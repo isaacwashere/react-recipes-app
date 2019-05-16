@@ -30,7 +30,6 @@ class App extends Component {
     this.setState({ recipes });
   }
 
-
   //use local storage to store data
   //local storage only takes string
   //go to application => Local Storage in Chrome Dev Tools to view Local Storage
@@ -38,7 +37,6 @@ class App extends Component {
     const recipes = JSON.stringify(this.state.recipes);
     localStorage.setItem("recipes", recipes);
   }
-
 
   render() {
     return (
