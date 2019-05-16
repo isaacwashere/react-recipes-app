@@ -1,6 +1,6 @@
 import React from 'react';
 
-//TODO: use of props might be able to be refactored (target)
+//TODO: use of props might be able to be refactored
 const Form = props => (
   <form onSubmit={ props.getRecipe } style={{ marginBottom: "2rem" }}>
     <input className="form__input" type="text" name="recipeName"/>
