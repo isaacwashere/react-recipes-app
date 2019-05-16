@@ -67,3 +67,4 @@ To run on your machine, you must first obtain a free Food2Fork API Key. You can 
 * When a user searches for a particualar item, sometimes the page can try to load before the data and an error can occur, look into the lifecycle method or Hook that would resolve this
 * Make the More Info Component that displays more information for a specific recipe into a pop up modal
 * Make it so that the initial GET Req is for Pizza recipes and a user can type in a query to change it
+* Use warmer colors; make the look and UI feel more welcoming
