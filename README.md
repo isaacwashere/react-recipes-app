@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Recipe App
 
-In the project directory, you can run:
+This app allows 
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to Run
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+***THIS WILL NOT RUN WITHOUT YOUR OWN API KEY AND APPLICATION ID***
 
-### `npm test`
+To run on your machine, you must first obtain a free Recipe Search API Key from Edamam. You can get the Recipe Search API key from: https://developer.edamam.com/edamam-recipe-api
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Running the App - Instructions
 
-### `npm run build`
+1. Navigate to Terminal
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> open directory in your Terminal
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+2. Start the server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> type "yarn start"
 
-### `npm run eject`
+> press "enter"
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. View the app:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> open localhost:3000 in your browser (might open automatically)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Running the Tests - Instructions
 
-## Learn More
+1. Navigate to Terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> open directory in your Terminal
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Run Tests
 
-### Code Splitting
+> type "npm test"
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+> press enter
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Abilities & Features
 
-### Making a Progressive Web App
+* A user can 
+* A user can 
+* A user can 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+## Notable Technologies/Functions/Methods
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+| Technology/Function  | Purpose                                      |
+| -------------------- |:--------------------------------------------:|
+|            |        |
+|             |            |
+| Boostrap         | Styling components                   |
 
-### Deployment
+* Using Hooks so that my "App.js", a non-class based/functional component, can have state
+* Using react-router-dom for routing
+* A CSS Module was used for adding custom/more specific styling to the "Recipe.js" component
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
+## Future Implementation(s)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* 
+* 
+
+
+
+
+
