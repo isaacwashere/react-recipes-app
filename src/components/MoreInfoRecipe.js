@@ -8,7 +8,7 @@ class MoreInfoRecipe extends React.Component {
   state = {
     activeRecipe: []
   }
-
+  
   //this will fire on component mount to get the specified recipe's data
   //TODO: consider using a useEffect when refactoring (?)
   componentDidMount = async () => {

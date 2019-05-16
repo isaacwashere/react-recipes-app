@@ -11,6 +11,7 @@ class App extends Component {
   state = {
     recipes: []
   }
+
   //makes the initial API Call
   //TODO: this call is too messy, target when refactoring
   getRecipe = async (e) => {
@@ -26,7 +27,8 @@ class App extends Component {
     const recipes = JSON.parse(json);
     this.setState({ recipes });
   }
-  //go to application => Local Storage in Chrome Dev Tools to view Local Storage
+  
+  //go to application => Local Storage => click the drop down (in Chrome Dev Tools) to view Local Storage
   componentDidUpdate = () => {
     const recipes = JSON.stringify(this.state.recipes);
     localStorage.setItem("recipes", recipes);
