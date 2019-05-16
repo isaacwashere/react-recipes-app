@@ -7,7 +7,7 @@ This app allows a user to type in a specific food and view recipes that include 
 
 ***THIS WILL NOT RUN WITHOUT YOUR OWN FOOD2FORK API KEY***
 
-To run on your machine, you must first obtain a free Food2Fork API Key from Edamam. You can get the API key from: https://www.food2fork.com/about/api. Please keep in mind, last I checked, the API only allows 50 calls PER DAY. 
+To run on your machine, you must first obtain a free Food2Fork API Key. You can get the API key from: https://www.food2fork.com/about/api. Please keep in mind, last I checked, the API only allows 50 calls PER DAY. 
 
 #### Running the App - Instructions
 
@@ -62,6 +62,7 @@ To run on your machine, you must first obtain a free Food2Fork API Key from Edam
 
 ## Future Implementation(s)
 
+* Heavy refactoring potential in this entire app
 * Improve code clarity readability using more modern understandings of React (i.e. Hooks)
 * When a user searches for a particualar item, sometimes the page can try to load before the data and an error can occur, look into the lifecycle method or Hook that would resolve this
 * Make the More Info Component that displays more information for a specific recipe into a pop up modal
