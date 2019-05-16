@@ -2,9 +2,11 @@
 //if a component does not need any state we can make it a stateless functional comp
 import React from 'react';
 
-const Form = () => {
+const Form = props => (
+  <form onSubmit={ props.getRecipe }>
+    <input type="text" name="recipeName"/>
+    <button>Search</button>
+  </form>
+);
 
-}
-
-
-
+export default Form;
